@@ -18,7 +18,7 @@ class ArticleData extends ChangeNotifier {
   Future<List<Article>> fetchArticles(String searchText) async {
     removeArticles();
     // TODO: please input your api key from https://newsapi.org/
-    final String apiKey = '';
+    final String apiKey = 'c4863ae1cf1c4816927e54a8ef65c824';
     String url = 'http://newsapi.org/v2/everything?q=$searchText&sortBy=publishedAt&apiKey=$apiKey';
     var response = await http.get(url);
 

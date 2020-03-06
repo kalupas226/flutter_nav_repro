@@ -1,4 +1,4 @@
-package com.example.research_system
+package com.example.flutter_nav_repro
 
 import androidx.annotation.NonNull
 import io.flutter.embedding.android.FlutterActivity
